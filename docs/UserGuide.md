@@ -118,6 +118,29 @@ The Help Window looks like the following:
 
 ![Help Window](images/ug/HelpWindow.png){: .centered-image }
 
+#### Quick Notes
+Quick Notes in ToothTracker is designed to enhance your efficiency by providing a space for immediate note-taking within the application.
+It’s designed to help you quickly capture important reminders or information without navigating away from the main window.
+
+**How to use the Quick Notes:**<br>
+
+**1. Adding Notes**:
+Click into the Quick Notes Box and type your notes. 
+Remember to hit the `Save` button to keep your notes for future reference.
+Unsaved notes will be lost when the session ends or if you navigate away.
+<div markdown="block" class="alert alert-info">
+**:information_source:** The Quick Notes box will turn green upon saving latest changes.
+![Quick Notes](images/ug/QuickNotesSaved.png){: .centered-image }
+</div>
+
+**2. Editing Notes**:
+Click into the Quick Notes Box and make your changes. You can select text to copy, cut, or delete as needed. 
+
+**3. Clearing Notes**:
+To clear the contents of your Quick Notes and start with a clean slate, simply click the `Clear` button. 
+This will remove all text until you decide to save new notes.
+
+
 {% include page-break.html %}
 
 ## Features
