@@ -73,11 +73,7 @@ dependencies {
 }
 
 shadowJar {
-    archiveFileName = 'addressbook.jar'
-}
-
-run {
-    enableAssertions = true
+    archiveFileName = 'toothtracker.jar'
 }
 
 defaultTasks 'clean', 'test'
