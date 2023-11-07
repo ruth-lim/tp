@@ -31,21 +31,21 @@ public class TypicalPersons {
             .withAddress("311, Clementi Ave 2, #02-25")
             .withEmail("johnd@example.com").withPhone("88888888")
             .withTags("owesMoney", "friends").build();
-    public static final Person CARL = new PersonBuilder().withName("Carl Kurz").withPhone("11111111")
+    public static final Person CARL = new PersonBuilder().withName("Carl Kurz").withPhone("91111111")
             .withEmail("heinz@example.com").withAddress("wall street").build();
-    public static final Person DANIEL = new PersonBuilder().withName("Daniel Meier").withPhone("22222222")
+    public static final Person DANIEL = new PersonBuilder().withName("Daniel Meier").withPhone("92222222")
             .withEmail("cornelia@example.com").withAddress("10th street").withTags("friends").build();
-    public static final Person ELLE = new PersonBuilder().withName("Elle Meyer").withPhone("33333333")
+    public static final Person ELLE = new PersonBuilder().withName("Elle Meyer").withPhone("93333333")
             .withEmail("werner@example.com").withAddress("michegan ave").build();
-    public static final Person FIONA = new PersonBuilder().withName("Fiona Kunz").withPhone("44444444")
+    public static final Person FIONA = new PersonBuilder().withName("Fiona Kunz").withPhone("94444444")
             .withEmail("lydia@example.com").withAddress("little tokyo").build();
-    public static final Person GEORGE = new PersonBuilder().withName("George Best").withPhone("55555555")
+    public static final Person GEORGE = new PersonBuilder().withName("George Best").withPhone("95555555")
             .withEmail("anna@example.com").withAddress("4th street").build();
 
     // Manually added
-    public static final Person HOON = new PersonBuilder().withName("Hoon Meier").withPhone("66666666")
+    public static final Person HOON = new PersonBuilder().withName("Hoon Meier").withPhone("96666666")
             .withEmail("stefan@example.com").withAddress("little india").build();
-    public static final Person IDA = new PersonBuilder().withName("Ida Mueller").withPhone("77777777")
+    public static final Person IDA = new PersonBuilder().withName("Ida Mueller").withPhone("97777777")
             .withEmail("hans@example.com").withAddress("chicago ave").build();
 
     // Manually added - Person's details found in {@code CommandTestUtil}

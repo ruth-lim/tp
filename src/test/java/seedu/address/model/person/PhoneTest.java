@@ -33,10 +33,12 @@ public class PhoneTest {
         assertFalse(Phone.isValidPhone("phone")); // non-numeric
         assertFalse(Phone.isValidPhone("9011p041")); // alphabets within digits
         assertFalse(Phone.isValidPhone("9312 1534")); // spaces within digits
+        assertFalse(Phone.isValidPhone("12345678")); // does not start with 9 or 8
         assertFalse(Phone.isValidPhone("124293842033123")); // long phone numbers
 
         // valid phone numbers
-        assertTrue(Phone.isValidPhone("12345678")); // exactly 8 numbers
+        assertTrue(Phone.isValidPhone("91234567")); // exactly 8 numbers and start with 9
+        assertTrue(Phone.isValidPhone("81234567")); // exactly 8 numbers and start with 8
     }
 
     @Test
@@ -63,7 +65,7 @@ public class PhoneTest {
         assertFalse(phone.equals(5.0f));
 
         // different values -> returns false
-        assertFalse(phone.equals(new Phone("12345678")));
+        assertFalse(phone.equals(new Phone("81234567")));
     }
 
     @Test
@@ -78,7 +80,7 @@ public class PhoneTest {
         assertEquals(phone, phoneCopy);
 
         // non-equal objects -> returns false
-        Phone otherPhone = new Phone("12345678");
+        Phone otherPhone = new Phone("81234567");
         assertNotEquals(phone, otherPhone);
     }
 }

@@ -21,7 +21,7 @@
     "tags" : [ "Professional", "Europe" ]
   }, {
     "name" : "Carl Kurz",
-    "phone" : "11111111",
+    "phone" : "91111111",
     "email" : "heinz@example.com",
     "address" : "wall street",
     "specialization" : "Paediatric Dentistry",
@@ -30,7 +30,7 @@
     "tags" : [ ]
   }, {
     "name" : "Daniel Meier",
-    "phone" : "22222222",
+    "phone" : "92222222",
     "email" : "cornelia@example.com",
     "address" : "10th street",
     "specialization" : "Periodontics",
@@ -39,7 +39,7 @@
     "tags" : [ "America" ]
   }, {
     "name" : "Elle Meyer",
-    "phone" : "33333333",
+    "phone" : "93333333",
     "email" : "werner@example.com",
     "address" : "michegan ave",
     "specialization" : "Prosthodontics",
@@ -48,7 +48,7 @@
     "tags" : [ "London", "France" ]
   }, {
     "name" : "Fiona Kunz",
-    "phone" : "44444444",
+    "phone" : "94444444",
     "email" : "lydia@example.com",
     "address" : "little tokyo",
     "specialization" : "Oral and Maxillofacial Surgery",
@@ -57,7 +57,7 @@
     "tags" : [ ]
   }, {
     "name" : "George Best",
-    "phone" : "55555555",
+    "phone" : "95555555",
     "email" : "anna@example.com",
     "address" : "4th street",
     "specialization" : "Dental Public Health",
