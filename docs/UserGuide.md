@@ -999,7 +999,7 @@ you may use `list-appointment` before using `view-calendar`.
 - **Remedy:** To modify tags, the number must exactly match the tags initially assigned during patient creation via `add-patient`. If additional tags are required or if tags need removal, the patient or dentist must be deleted and added again. 
 Resetting tags to empty using `edit-patient [PATIENT_ID] t/` is possible, but subsequent tag editing must adhere to the original number of tags.
 
-### Editing Patient Without Tags or Editing Patient previously deleted:
+### Editing Patient Without Tags or Editing Patient previously deleted
 
 - **Issue:** Attempting to edit a patient record that originally had no tags and adding tags during the edit or editing a patient record that was previously deleted to have tags will result in a "Multiple values specified for the following single-valued field(s): t/" error.
 When editing a patient record that initially had no tags, adding tags during the editing process triggers an error related to the `t/` (tags) field. The system recognizes this as an attempt to assign multiple values to a field that is intended to be single-valued.
